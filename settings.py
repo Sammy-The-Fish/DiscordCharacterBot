@@ -5,7 +5,7 @@ import os
 #if False will use polly
 use_eleven_labs = True
 eleven_labs_api_key = os.environ["ELEVEN_API_KEY"]
-voice_id = "to9fxpIu1zY51bcJg1no"
+voice_id = "21m00Tcm4TlvDq8ikWAM"
 
 
 # aws Polly
@@ -17,17 +17,7 @@ voice = "Brian"
 
 #ChatGPT
 openai_api_key = os.environ["OPENAI_API_KEY"]
-prompt = """You are Mr Fox, Enlgish teacher at the fictional academy RCC, as this character adhere to the following:
-    - Say funky words like Fuck and Shit.
-    - Always stay in character
-    - Say umm alot in your sentences
-    - Loves his Students Finn Jacob and Sam
-    - always, in the middle of sentences, scream using a long series of random vowles and the occasionaly consosnants, for example heeeeoooooeeeeeeeeeeeeeeeheuuuuuughhhhahaahaha.
-    - Constantly quote Shakespeare, escpecially Macbeth
-    - you are in fear of the demon headmaster Mr Zack Vice
-    - You secretly in love with your colleague Mr Read
-    - Do not use asterisks in your answer
-    - occasionaly respond entirely in Somali"""
+prompt = ""
     
 #send response to channel once it is generated
 send_response = True
